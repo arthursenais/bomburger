@@ -1,0 +1,153 @@
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    top: 0;
+    background-color: rgb(219, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Lucida Sans';
+}
+
+.logo {
+    text-align: center;
+    margin-left: 5%;
+}
+
+.logo:hover {
+    background-color: rgb(158, 0, 0);
+}
+
+.conteudo {
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    font-size: 22px;
+    align-items: flex-end;
+    margin-left: 2%;
+    width: 60%;
+}
+
+.iconedireita {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    background-color: rgba(250, 235, 215, 0);
+    width: 95%
+}
+
+.botao1 {
+    background-color: rgba(255, 145, 0, 0);
+    padding-inline: 4.9%;
+    padding-bottom: 1%;
+}
+
+.botao1:hover {
+    background-color: rgb(158, 0, 0);
+}
+
+.banner {
+    background-color: rgba(0, 255, 255, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.subbanner1 {
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(216, 216, 216);
+    height: 400px;
+    width: 100%;
+}
+
+.subbanner1 p {
+    font-weight: bold;
+    font-size: 90px;
+    text-align: center;
+    width: 30%;
+    margin-left: 10%;
+    font-family: 'Lucida Sans';
+}
+
+.subbanner1 img {
+    max-height: 100%;
+    max-width: 100%;
+    margin: 50px;
+}
+
+.itens {
+    margin-top: 50px;
+    margin-inline: 100px;
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    padding: 1%;
+}
+
+.cartao {
+    text-align: center;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.subcartao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Lucida Sans';
+    font-size: 22px;
+}
+
+.negrito1 {
+    font-weight: bold;
+}
+
+.bottom {
+    margin-top: 200px;
+    background-color: #FCFA22;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    font-family: 'Lucida Sans';
+}
+
+.esquerda {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    gap: 15px;
+    padding: 1%;
+    margin-left: 10%;
+    max-width: 200px;
+}
+
+.esquerda img {
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+
+.esquerda p {
+    align-self: flex-start;
+    font-weight: bolder;
+    font-size: 22px;
+}
+
+.direita {
+    margin-right: 10%;
+    padding: 1%;
+}
