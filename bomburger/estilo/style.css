@@ -8,21 +8,27 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: inherit;
 }
 
-.header {
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header {
     top: 0;
     background-color: rgb(219, 0, 0);
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
     font-family: 'Lucida Sans';
 }
 
 .logo {
     text-align: center;
-    margin-left: 5%;
+    padding-inline: 1%;
+    transition: 0.3s;
 }
 
 .logo:hover {
@@ -33,23 +39,25 @@ a {
     background-color: rgba(0, 255, 255, 0);
     display: flex;
     font-size: 22px;
+    flex-flow: row wrap;
     align-items: flex-end;
-    margin-left: 2%;
     width: 60%;
 }
 
 .iconedireita {
     display: flex;
-    flex-direction: row;
     flex-flow: row wrap;
+    justify-content: center;
     background-color: rgba(250, 235, 215, 0);
-    width: 95%
+    width: 100%;
 }
 
 .botao1 {
     background-color: rgba(255, 145, 0, 0);
-    padding-inline: 4.9%;
-    padding-bottom: 1%;
+    text-align: center;
+    flex-grow: 1;
+    color: white;
+    transition: 0.3s;
 }
 
 .botao1:hover {
@@ -61,6 +69,7 @@ a {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    box-shadow: 0px 0px 20px rgb(97, 97, 97);
 }
 
 .subbanner1 {
@@ -102,11 +111,16 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    transition: 0.3s;
+}
+
+.cartao:hover {
+    background-color: rgb(218, 218, 218);
 }
 
 .subcartao {
     display: flex;
-    flex-direction: row;
+    flex-flow: row wrap;
     justify-content: space-between;
     font-family: 'Lucida Sans';
     font-size: 22px;
@@ -116,7 +130,46 @@ a {
     font-weight: bold;
 }
 
-.bottom {
+.cartaomain {
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    padding: 2%;
+}
+
+.cartaomain img {
+    align-self: center;
+    flex: 0 0 auto;
+}
+
+.subcartaomain {
+    text-align: justify;
+    display: flex;
+    flex-flow: column wrap;
+    font-family: 'Lucida Sans';
+    font-size: 22px;
+    padding: 1%;
+}
+
+.subsubcartaomain {
+    flex-flow: row wrap;
+    display: flex;
+    justify-content: space-between;
+}
+
+.subsubcartaomain p {
+    transition: 290ms;
+    text-decoration-line: underline;
+    padding: 5px;
+}
+
+.subsubcartaomain p:hover {
+    background-color: grey;
+    cursor: pointer;
+    border-radius: 50px;
+}
+
+footer {
     margin-top: 200px;
     background-color: #FCFA22;
     display: flex;
