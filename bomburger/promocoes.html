@@ -7,6 +7,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="..\bomburger\estilo\style.css">
     <title>Home | Bomburger</title>
+    <style>
+        .itens {
+            font-family: 'lucida sans';
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+        
+        .itens img {
+            max-width: 50%;
+        }
+        
+        .texto {
+            margin-top: 6%;
+            max-width: 49%;
+            font-size: 32px;
+            margin-left: 5%;
+        }
+        
+        .fazerpedido {
+            text-align: center;
+            padding: 10px;
+            padding-inline: 0;
+            border-radius: 100px;
+            background-color: rgb(255, 208, 0);
+        }
+        
+        .classe {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        header {
+            margin: 0;
+        }
+    </style>
 </head>
 
 <body>
@@ -31,31 +69,15 @@
             </div>
         </div>
     </header>
-
     <div class="itens">
-        <div class="cartaomain">
-            <img src="../bomburger/imagens/xburger.jpg" width="500px">
-            <div class="subcartaomain">
-                <h1>X-burger</h1>
-                <p>Um cheeseburger é um hambúrguer coberto com queijo. Tradicionalmente, a fatia de queijo é colocada em cima do hambúrguer de carne.</p>
-                <div class="subsubcartaomain">
-                    <h1 class="negrito1">R$15</h1>
-                    <p>Fazer pedido</p>
-                </div>
-            </div>
+        <img src="../bomburger/imagens/duplo.jpg">
+        <div class="texto">
+            <h1>Duplo</h1>
+            <h2>de <s>R$30</s> por R$23</h2>
+            <h3 class="fazerpedido">Fazer pedido</h3>
         </div>
 
     </div>
-    <footer>
-        <div class="esquerda">
-            <img src="../bomburger/imagens/facebook.png">
-            <img src="../bomburger/imagens/insta.png">
-            <p>bomburgerbr@gmail.com</p>
-        </div>
-        <div class="direita">
-            <img src="../bomburger/imagens/cartoes.PNG">
-        </div>
-    </footer>
 </body>
 
 </html>
